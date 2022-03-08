@@ -18,7 +18,7 @@ steps:
     - functions
     - deploy
     - $_FUNCTION_NAME
-    - --region=&_FUNCTION_REGION
+    - --region=$_FUNCTION_REGION
     - --source=.
     - --trigger-http
     - --runtime=$_FUNCTION_RUNTIME

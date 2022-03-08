@@ -29,7 +29,7 @@ steps:
 
 
 substitutions: 
-    _FUNCTION_PROJECT : staging
+    _FUNCTION_PROJECT : staging-343421
     _FUNCTION_NAME    : puthon_app
     _FUNCTION_REGION  : europe-central2
     _FUNCTION_RUNTIME : Python 3.8 
